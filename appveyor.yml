@@ -2,7 +2,7 @@ version: '{build}'
 os: Visual Studio 2017
 configuration: Debug
 skip_branch_with_pr: true
-install
+install:
 - appveyor version
 build_script:
 - ps: ./Build.ps1
