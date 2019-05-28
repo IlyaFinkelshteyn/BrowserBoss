@@ -6,12 +6,12 @@ install:
 - appveyor version
 build_script:
 - ps: ./Build.ps1
-artifacts:
+#artifacts:
 #  - path: 'src\**\*.nupkg'
 #    name: NuGet Packages
-  - path: 'src\**\*.snupkg'
-    name: NuGet Symbol Packages
-deploy:
-  provider: NuGet
-  api_key:
-    secure: sCKpB3P8ywhVocExYvCmn4b8AjZpIYVhFHsz/mGXZG9ADfGAdVplv8prKdxKNy7+
+#  - path: 'src\**\*.snupkg'
+#    name: NuGet Symbol Packages
+#deploy:
+#  provider: NuGet
+#  api_key:
+ #   secure: sCKpB3P8ywhVocExYvCmn4b8AjZpIYVhFHsz/mGXZG9ADfGAdVplv8prKdxKNy7+
